@@ -153,5 +153,5 @@ LOGGING = {
     }
 }
 
-AUTH_USER_MODEL = 'users.WebsiteUser'
+AUTH_USER_MODEL = 'users.CustomUser'
 

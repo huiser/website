@@ -109,6 +109,8 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
 )
 
+AUTH_USER_MODEL = 'users.CustomUser'
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -153,5 +155,4 @@ LOGGING = {
     }
 }
 
-AUTH_USER_MODEL = 'users.CustomUser'
 

@@ -6,5 +6,8 @@ class Category(models.Model):
     description = models.TextField(_('description'), blank=True)
     public = models.BooleanField(_('public'), default=False)
 
+    class Meta:
+        verbose_name_plural = "categories"
+
     def __unicode__(self):
         return self.name
